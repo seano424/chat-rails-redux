@@ -49,19 +49,19 @@ Channel.all.each { |c| channel_ids << c.id }
 
 messages = [
   {
-    content: "Wow such cool!",
+    content: "The last time I saw a mouth like that, it had a hook in it.",
   },
   {
-    content: "Wowowowowo such cool!",
+    content: "Oh, this is the worst-looking hat I ever saw. What, when you buy a hat like this I bet you get a free bowl of soup, huh?",
   },
   {
-    content: "Oh coool such cool!",
+    content: "Whoa, did somebody step on a duck?",
   },
   {
-    content: "Oh again coool such cool!",
+    content: "Elihu, will you come loofah my stretch marks?",
   },
   {
-    content: "Eee Oh coool such cool!",
+    content: "Oh, this your wife, huh? A lovely lady. Hey baby, you must’ve been something before electricity.",
   },
 ] 
 # Message.create!({content: 'trial', user_id: 1, channel_id: 1})
