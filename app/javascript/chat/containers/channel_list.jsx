@@ -13,6 +13,7 @@ class ChannelList extends Component {
   renderChannel = (channel) => {
     return (
       <li
+        style={{maxWidth: 'max-content'}}
         key={channel}
         className={channel === this.props.selectedChannel ? 'active' : null}
         onClick={() => this.handleClick(channel)}>
