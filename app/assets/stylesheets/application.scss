@@ -29,6 +29,11 @@
   border-bottom: 2px solid black !important;
 }
 
+.channel-editor .form-control {
+  border: none !important;
+  border-radius: 4px;
+}
+
 .auth_container {
   background-color: white;
   padding: 3em;

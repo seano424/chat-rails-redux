@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { createMessage } from '../actions/index';
+import {BsFillCaretRightFill} from 'react-icons/bs'
 
 class MessageForm extends Component {
   constructor(props) {
@@ -29,12 +30,13 @@ class MessageForm extends Component {
         <input
           ref={input => this.messageBox = input}
           type="text"
-          className="form-control "
+          className="form-control border-right-0"
           autoComplete="off"
           value={this.state.value}
           onChange={this.handleChange}
+          placeholder="Write your messages here 💥 ⚡️ 🐒 🦦 🦥 🐲 🐉 🧟‍♂️ 👻 👽 🥷🏾 🦹‍♀️ "
         />
-        <button type="submit">Send</button>
+        <button className="msg-btn" type="submit"><BsFillCaretRightFill/></button>
       </form>
     );
   }

@@ -60,10 +60,15 @@ body {
 /* Column 3/3 *****************************************************************/
 
 .channel-container {
+  background-color: #fffffe;
   display: flex;
   flex-direction: column;
   // width: calc(100% - 290px);
   width: 85%;
+}
+
+.message-content {
+  color: #272343;
 }
 
 .channel-title {
@@ -85,6 +90,15 @@ body {
   box-sizing: border-box;
   height: 100%;
   overflow: scroll;
+}
+
+.msg-btn {
+  background-color: gainsboro;
+}
+
+.msg-btn:hover {
+  background-color: black;
+  transition: all 0.2s ease-in-out;
 }
 
 .message-container > i {
