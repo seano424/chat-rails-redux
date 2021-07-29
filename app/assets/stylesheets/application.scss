@@ -12,8 +12,50 @@
 @import 'components/index';
 @import 'pages/index';
 
+.channel-editor .form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
 .form-control:focus {
   outline: none !important;
   box-shadow: none !important;
   border-color: black !important;
+}
+
+.form-control {
+  border: none !important;
+  border-bottom: 2px solid black !important;
+}
+
+.auth_container {
+  background-color: white;
+  padding: 3em;
+  width: 60%;
+  margin: 2% auto;
+  border-radius: 2%;
+}
+.auth_container h2 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.auth-btn {
+  background-color: #7f5af0 !important;
+  color: #fffffe;
+  width: 100% !important;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.auth-links {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+abbr[title='required'] {
+  display: none !important;
 }
