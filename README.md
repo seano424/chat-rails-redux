@@ -1,10 +1,10 @@
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
 
-# [React Redux Rails Chat App](https://github.com/seano424/chat-rails-redux)
+# [React Redux Rails Chat App](https://simple-rails-react-chat-app.herokuapp.com/channels/general)
 
-Source code of my personal website & blog ✨
+Source code of this simple chat app ✨
 
-Check the live version [here](https://github.com/seano424/chat-rails-redux) ⚡️
+Check the live version [here](https://simple-rails-react-chat-app.herokuapp.com/channels/general) ⚡️
 
 ![home](./public/images/chat-app.png)
 
